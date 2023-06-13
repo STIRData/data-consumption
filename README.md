@@ -26,8 +26,8 @@ This pipeline serves analysts who compare the population and number of business 
 ### Technical implementation steps:
 1. *Extract compliant endpoints from the catalog:* The pipeline extracts the SPARQL endpoints compliant with the STIRData business data model specification based on the metadata records in a data catalog, e.g., European Data Portal or STIRData catalog.
 2. *Prepare query tasks to get the number of business entities in administrative regions:* Prepares a SPARQL construct query task for each SPARQL endpoint extracted in the previous step. Each task contains a prepared SPARQL construct query that extracts the list of business entities (instances of the class <http://www.w3.org/ns/legal#LegalEntity>), groups them by the administrative unit they are registered in (property path <http://data.europa.eu/m8g/registeredAddress>/<http://data.europa.eu/m8g/adminUnit>) and counts the number of business entities registered in each administrative unit.
-  - We expect administrative regions specified at the level of LAU regions.
-  - If there is no administrative unit specified a legal entity is registered in, the pipeline tries other possibilities according to the specification (postal address, street address, address of the (registered) site)
+   - We expect administrative regions specified at the level of LAU regions.
+   - If there is no administrative unit specified a legal entity is registered in, the pipeline tries other possibilities according to the specification (postal address, street address, address of the (registered) site)
 3. *Execute query tasks to get the number of business entities in administrative regions:* Executes the prepared query tasks to get the number of business entities in administrative regions for each input endpoint.
 4. *Download LAU data:* Downloads a file with the RDF representation of LAU regions from the specified URL.
 5. *Transform LAU data:* Transforms the RDF file with LAU regions to an RDF graph. (This is a technical step.)
@@ -39,8 +39,8 @@ This pipeline serves analysts who compare the population and number of business 
 11. *Prepare output dataset definition:* Prepares the definition of the output statistical data cube data set.
 12. *Transform output dataset definition:* Transforms the definition of the output statistical data cube definition to an RDF graph. (This is a technical step.)
 13. *Construct statistical observations:* Constructs the final statistical observations. Each observation has three dimensions and two measures as defined by the data structure definition prepared in Step 9.
-  - The number of business entities in NUTS regions is computed as a summary of the number of business entities in the LAU regions in this NUTS region. We take the affiliation of the LAU region to the NUTS region from the RDF representation of the LAU regions extracted in Steps 4-6.
-  - The population in NUTS regions is taken from Wikidata in Step 7.
+    - The number of business entities in NUTS regions is computed as a summary of the number of business entities in the LAU regions in this NUTS region. We take the affiliation of the LAU region to the NUTS region from the RDF representation of the LAU regions extracted in Steps 4-6.
+    - The population in NUTS regions is taken from Wikidata in Step 7.
 14. *Create final RDF:* Creates the final RDF graph with the output that contains the statistical observations, the statistical data cube as a dataset with the observations, and the definition of its structure. (This is a technical step.)
 15. *Store output RDF in a file:* Stores the final RDF in an output TTL file.
 16. *Create an output CSV file:* Executes a SPARQL SELECT query that produces the CSV output with the statistical observations. Each observation forms a row in the output CSV file.
@@ -69,8 +69,8 @@ This pipeline serves analysts who compare the population and GDP in different NU
 ### Technical implementation steps:
 1. _Extract compliant endpoints from the catalog:_ The pipeline extracts the SPARQL endpoints compliant with the STIRData business data model specification based on the metadata records in a data catalog, e.g., European Data Portal or STIRData catalog.
 2. _Prepare query tasks to get the number of business entities in administrative regions:_ Prepares a SPARQL construct query task for each SPARQL endpoint extracted in the previous step. Each task contains a prepared SPARQL construct query that extracts the list of business entities (instances of the class <http://www.w3.org/ns/legal#LegalEntity>), groups them by the administrative unit they are registered in (property path <http://data.europa.eu/m8g/registeredAddress>/<http://data.europa.eu/m8g/adminUnit>) and counts the number of business entities registered in each administrative unit.
-  - We expect administrative regions specified at the level of LAU regions.
-  - If there is no administrative unit specified a legal entity is registered in, the pipeline tries other possibilities according to the specification (postal address, street address, address of the (registered) site)
+   - We expect administrative regions specified at the level of LAU regions.
+   - If there is no administrative unit specified a legal entity is registered in, the pipeline tries other possibilities according to the specification (postal address, street address, address of the (registered) site)
 3. _Execute query tasks to get the number of business entities in administrative regions:_ Executes the prepared query tasks to get the number of business entities in administrative regions for each input endpoint.
 4. _Download LAU data:_ Downloads a file with the RDF representation of LAU regions from the specified URL.
 5. _Transform LAU data:_ Transforms the RDF file with LAU regions to an RDF graph. (This is a technical step.)
@@ -85,8 +85,8 @@ This pipeline serves analysts who compare the population and GDP in different NU
 14. _Prepare output dataset definition:_ Prepares the definition of the output statistical data cube data set.
 15. _Transform output dataset definition:_ Transforms the definition of the output statistical data cube definition to an RDF graph. (This is a technical step.)
 16. _Construct statistical observations:_ Constructs the final statistical observations. Each observation has three dimensions and two measures as defined by the data structure definition prepared in Step 12.
-  - The number of business entities in NUTS regions is computed as a summary of the number of business entities in the LAU regions in this NUTS region. We take the affiliation of the LAU region to the NUTS region from the RDF representation of the LAU regions extracted in Steps 4-6.
-  - The population in NUTS regions is taken from Wikidata in Steps 7-10.
+    - The number of business entities in NUTS regions is computed as a summary of the number of business entities in the LAU regions in this NUTS region. We take the affiliation of the LAU region to the NUTS region from the RDF representation of the LAU regions extracted in Steps 4-6.
+    - The population in NUTS regions is taken from Wikidata in Steps 7-10.
 17. _Create final RDF:_ Creates the final RDF graph with the output that contains the statistical observations, the statistical data cube as a dataset with the observations, and the definition of its structure. (This is a technical step.)
 18. _Store output RDF in a file:_ Stores the final RDF in an output TTL file.
 19. _Create an output CSV file:_ Executes a SPARQL SELECT query that produces the CSV output with the statistical observations. Each observation forms a row in the output CSV file.
