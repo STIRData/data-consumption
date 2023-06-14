@@ -1,0 +1,1836 @@
+[
+  {
+    "@graph": [
+      {
+        "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-0002",
+        "@type": [
+          "http://linkedpipes.com/ontology/Pipeline"
+        ],
+        "http://etl.linkedpipes.com/ontology/tag": [
+          {
+            "@value": "consumption demo"
+          }
+        ],
+        "http://etl.linkedpipes.com/ontology/version": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
+            "@value": "5"
+          }
+        ],
+        "http://linkedpipes.com/ontology/events/created": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2022-09-20T08:16:42.508"
+          }
+        ],
+        "http://linkedpipes.com/ontology/lastUpdate": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2023-06-14T15:19:41.53893261"
+          }
+        ],
+        "http://linkedpipes.com/ontology/profile": [
+          {
+            "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-0002/profile/default"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "Searching for business entities across STIRdata data sources, Wikidata and DBpedia"
+          }
+        ]
+      },
+      {
+        "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-0002/component/2de7-a7ba",
+        "@type": [
+          "http://linkedpipes.com/ontology/Component"
+        ],
+        "http://linkedpipes.com/ontology/configurationGraph": [
+          {
+            "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-0002/component/2de7-a7ba/configuration"
+          }
+        ],
+        "http://linkedpipes.com/ontology/template": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/e-sparqlEndpointList/0.0.0"
+          }
+        ],
+        "http://linkedpipes.com/ontology/x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
+            "@value": "1365"
+          }
+        ],
+        "http://linkedpipes.com/ontology/y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
+            "@value": "1411"
+          }
+        ],
+        "http://purl.org/dc/terms/description": [
+          {
+            "@value": "Execute query tasks to search for\nbusiness entities by their identifier\n(DBpedia)"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "SPARQL endpoint list to single graph"
+          }
+        ]
+      },
+      {
+        "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-0002/component/5c2a-9a9e",
+        "@type": [
+          "http://linkedpipes.com/ontology/Component"
+        ],
+        "http://linkedpipes.com/ontology/configurationGraph": [
+          {
+            "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-0002/component/5c2a-9a9e/configuration"
+          }
+        ],
+        "http://linkedpipes.com/ontology/template": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/t-sparqlConstruct/0.0.0"
+          }
+        ],
+        "http://linkedpipes.com/ontology/x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
+            "@value": "958"
+          }
+        ],
+        "http://linkedpipes.com/ontology/y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
+            "@value": "1404"
+          }
+        ],
+        "http://purl.org/dc/terms/description": [
+          {
+            "@value": "Prepare query tasks to search for\nbusiness entities by their identifier\n(DBpedia)"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "SPARQL construct"
+          }
+        ]
+      },
+      {
+        "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-0002/component/5d31-98bb",
+        "@type": [
+          "http://linkedpipes.com/ontology/Component"
+        ],
+        "http://linkedpipes.com/ontology/configurationGraph": [
+          {
+            "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-0002/component/5d31-98bb/configuration"
+          }
+        ],
+        "http://linkedpipes.com/ontology/template": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/t-sparqlConstruct/0.0.0"
+          }
+        ],
+        "http://linkedpipes.com/ontology/x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
+            "@value": "44"
+          }
+        ],
+        "http://linkedpipes.com/ontology/y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
+            "@value": "1594"
+          }
+        ],
+        "http://purl.org/dc/terms/description": [
+          {
+            "@value": "Prepare query tasks to search for\nbusiness entities by their identifier\n(Wikidata)"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "SPARQL construct"
+          }
+        ]
+      },
+      {
+        "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-0002/component/e455-b2e2",
+        "@type": [
+          "http://linkedpipes.com/ontology/Component"
+        ],
+        "http://linkedpipes.com/ontology/configurationGraph": [
+          {
+            "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-0002/component/e455-b2e2/configuration"
+          }
+        ],
+        "http://linkedpipes.com/ontology/template": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/e-sparqlEndpointList/0.0.0"
+          }
+        ],
+        "http://linkedpipes.com/ontology/x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
+            "@value": "549"
+          }
+        ],
+        "http://linkedpipes.com/ontology/y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
+            "@value": "1505"
+          }
+        ],
+        "http://purl.org/dc/terms/description": [
+          {
+            "@value": "Execute query tasks to search for\nbusiness entities by their identifier\n(Wikidata)"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "SPARQL endpoint list to single graph"
+          }
+        ]
+      },
+      {
+        "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-0002/component/f3d2-9679",
+        "@type": [
+          "http://linkedpipes.com/ontology/Component"
+        ],
+        "http://linkedpipes.com/ontology/configurationGraph": [
+          {
+            "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-0002/component/f3d2-9679/configuration"
+          }
+        ],
+        "http://linkedpipes.com/ontology/template": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/t-mustache/0.0.0"
+          }
+        ],
+        "http://linkedpipes.com/ontology/x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
+            "@value": "2494"
+          }
+        ],
+        "http://linkedpipes.com/ontology/y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
+            "@value": "1450"
+          }
+        ],
+        "http://purl.org/dc/terms/description": [
+          {
+            "@value": "Construct final JSON output file"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "Mustache"
+          }
+        ]
+      },
+      {
+        "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-0002/connection/0a79-9da7",
+        "@type": [
+          "http://linkedpipes.com/ontology/Connection"
+        ],
+        "http://linkedpipes.com/ontology/sourceBinding": [
+          {
+            "@value": "OutputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/sourceComponent": [
+          {
+            "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-0002/component/5c2a-9a9e"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetBinding": [
+          {
+            "@value": "Tasks"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetComponent": [
+          {
+            "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-0002/component/2de7-a7ba"
+          }
+        ]
+      },
+      {
+        "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-0002/connection/31ca-a6bb",
+        "@type": [
+          "http://linkedpipes.com/ontology/Connection"
+        ],
+        "http://linkedpipes.com/ontology/sourceBinding": [
+          {
+            "@value": "OutputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/sourceComponent": [
+          {
+            "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00022314-b62a"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetBinding": [
+          {
+            "@value": "InputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetComponent": [
+          {
+            "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-0002/component/5d31-98bb"
+          }
+        ]
+      },
+      {
+        "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-0002/connection/5e1b-8063",
+        "@type": [
+          "http://linkedpipes.com/ontology/Connection"
+        ],
+        "http://linkedpipes.com/ontology/sourceBinding": [
+          {
+            "@value": "OutputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/sourceComponent": [
+          {
+            "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-0002/component/2de7-a7ba"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetBinding": [
+          {
+            "@value": "InputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetComponent": [
+          {
+            "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-0005021a-b241"
+          }
+        ]
+      },
+      {
+        "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-0002/connection/8e16-a664",
+        "@type": [
+          "http://linkedpipes.com/ontology/Connection"
+        ],
+        "http://linkedpipes.com/ontology/sourceBinding": [
+          {
+            "@value": "OutputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/sourceComponent": [
+          {
+            "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-0002/component/5d31-98bb"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetBinding": [
+          {
+            "@value": "Tasks"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetComponent": [
+          {
+            "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-0002/component/e455-b2e2"
+          }
+        ]
+      },
+      {
+        "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-0002/connection/c0bb-b436",
+        "@type": [
+          "http://linkedpipes.com/ontology/Connection"
+        ],
+        "http://linkedpipes.com/ontology/sourceBinding": [
+          {
+            "@value": "OutputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/sourceComponent": [
+          {
+            "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-0002/component/e455-b2e2"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetBinding": [
+          {
+            "@value": "InputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetComponent": [
+          {
+            "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-0002/component/5c2a-9a9e"
+          }
+        ]
+      },
+      {
+        "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-0002/connection/c238-89e4",
+        "@type": [
+          "http://linkedpipes.com/ontology/Connection"
+        ],
+        "http://linkedpipes.com/ontology/sourceBinding": [
+          {
+            "@value": "OutputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/sourceComponent": [
+          {
+            "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-0002/component/e455-b2e2"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetBinding": [
+          {
+            "@value": "InputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetComponent": [
+          {
+            "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-0005021a-b241"
+          }
+        ]
+      },
+      {
+        "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-0002/connection/e091-8000",
+        "@type": [
+          "http://linkedpipes.com/ontology/Connection"
+        ],
+        "http://linkedpipes.com/ontology/sourceBinding": [
+          {
+            "@value": "OutputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/sourceComponent": [
+          {
+            "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-0005021a-b241"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetBinding": [
+          {
+            "@value": "InputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetComponent": [
+          {
+            "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-0002/component/f3d2-9679"
+          }
+        ]
+      },
+      {
+        "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-0002/profile/default",
+        "@type": [
+          "http://linkedpipes.com/ontology/ExecutionProfile"
+        ],
+        "http://etl.linkedpipes.com/ontology/logRetentionPolicy": [
+          {
+            "@id": "http://linkedpipes.com/resources/Keep"
+          }
+        ],
+        "http://linkedpipes.com/ontology/rdfRepositoryPolicy": [
+          {
+            "@id": "http://linkedpipes.com/ontology/repository/PerInputRepository"
+          }
+        ],
+        "http://linkedpipes.com/ontology/rdfRepositoryType": [
+          {
+            "@id": "http://linkedpipes.com/ontology/repository/NativeStore"
+          }
+        ]
+      },
+      {
+        "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-0005021a-b241",
+        "@type": [
+          "http://linkedpipes.com/ontology/Component"
+        ],
+        "http://linkedpipes.com/ontology/configurationGraph": [
+          {
+            "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-0005021a-b241/configuration"
+          }
+        ],
+        "http://linkedpipes.com/ontology/template": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/t-sparqlConstruct/0.0.0"
+          }
+        ],
+        "http://linkedpipes.com/ontology/x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
+            "@value": "1967"
+          }
+        ],
+        "http://linkedpipes.com/ontology/y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
+            "@value": "1655"
+          }
+        ],
+        "http://purl.org/dc/terms/description": [
+          {
+            "@value": "Construct output representation\nof business entities"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "SPARQL construct"
+          }
+        ]
+      },
+      {
+        "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-00051682090585905-00041682090585905-00041681989406323-00031681989406323-00031681989155073-00021681989155073-000204e7-8551",
+        "@type": [
+          "http://linkedpipes.com/ontology/Connection"
+        ],
+        "http://linkedpipes.com/ontology/sourceBinding": [
+          {
+            "@value": "FilesOutput"
+          }
+        ],
+        "http://linkedpipes.com/ontology/sourceComponent": [
+          {
+            "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-00051682090585905-00041682090585905-00041681989406323-00031681989406323-00031681989155073-00021681989155073-00028bb2-b1df"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetBinding": [
+          {
+            "@value": "InputFiles"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetComponent": [
+          {
+            "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-00051682090585905-00041682090585905-00041681989406323-00031681989406323-00031681989155073-00021681989155073-00021681480283590-00011681480283590-00013ea1-9724"
+          }
+        ]
+      },
+      {
+        "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-00051682090585905-00041682090585905-00041681989406323-00031681989406323-00031681989155073-00021681989155073-00021681480283590-00011681480283590-000114b2-90c9",
+        "@type": [
+          "http://linkedpipes.com/ontology/Component"
+        ],
+        "http://linkedpipes.com/ontology/configurationGraph": [
+          {
+            "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-00051682090585905-00041682090585905-00041681989406323-00031681989406323-00031681989155073-00021681989155073-00021681480283590-00011681480283590-000114b2-90c9/configuration"
+          }
+        ],
+        "http://linkedpipes.com/ontology/disabled": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "true"
+          }
+        ],
+        "http://linkedpipes.com/ontology/template": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/e-sparqlEndpoint/0.0.0"
+          }
+        ],
+        "http://linkedpipes.com/ontology/x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
+            "@value": "-410"
+          }
+        ],
+        "http://linkedpipes.com/ontology/y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
+            "@value": "1611"
+          }
+        ],
+        "http://purl.org/dc/terms/description": [
+          {
+            "@value": "Extract compliant endpoints\nfrom catalog"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "SPARQL endpoint - EDP"
+          }
+        ]
+      },
+      {
+        "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-00051682090585905-00041682090585905-00041681989406323-00031681989406323-00031681989155073-00021681989155073-00021681480283590-00011681480283590-00012656-bd0d",
+        "@type": [
+          "http://linkedpipes.com/ontology/Component"
+        ],
+        "http://linkedpipes.com/ontology/configurationGraph": [
+          {
+            "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-00051682090585905-00041682090585905-00041681989406323-00031681989406323-00031681989155073-00021681989155073-00021681480283590-00011681480283590-00012656-bd0d/configuration"
+          }
+        ],
+        "http://linkedpipes.com/ontology/template": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/e-sparqlEndpoint/0.0.0"
+          }
+        ],
+        "http://linkedpipes.com/ontology/x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
+            "@value": "-464"
+          }
+        ],
+        "http://linkedpipes.com/ontology/y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
+            "@value": "1722"
+          }
+        ],
+        "http://purl.org/dc/terms/description": [
+          {
+            "@value": "Extract compliant endpoints\nfrom catalog"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "SPARQL endpoint - STIRData"
+          }
+        ]
+      },
+      {
+        "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-00051682090585905-00041682090585905-00041681989406323-00031681989406323-00031681989155073-00021681989155073-00021681480283590-00011681480283590-00012697-8a34",
+        "@type": [
+          "http://linkedpipes.com/ontology/Component"
+        ],
+        "http://linkedpipes.com/ontology/configurationGraph": [
+          {
+            "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-00051682090585905-00041682090585905-00041681989406323-00031681989406323-00031681989155073-00021681989155073-00021681480283590-00011681480283590-00012697-8a34/configuration"
+          }
+        ],
+        "http://linkedpipes.com/ontology/template": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/t-singleGraphUnion/0.0.0"
+          }
+        ],
+        "http://linkedpipes.com/ontology/x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
+            "@value": "3"
+          }
+        ],
+        "http://linkedpipes.com/ontology/y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
+            "@value": "1867"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "Union"
+          }
+        ]
+      },
+      {
+        "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-00051682090585905-00041682090585905-00041681989406323-00031681989406323-00031681989155073-00021681989155073-00021681480283590-00011681480283590-00013ea1-9724",
+        "@type": [
+          "http://linkedpipes.com/ontology/Component"
+        ],
+        "http://linkedpipes.com/ontology/configurationGraph": [
+          {
+            "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-00051682090585905-00041682090585905-00041681989406323-00031681989406323-00031681989155073-00021681989155073-00021681480283590-00011681480283590-00013ea1-9724/configuration"
+          }
+        ],
+        "http://linkedpipes.com/ontology/disabled": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "true"
+          }
+        ],
+        "http://linkedpipes.com/ontology/template": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/t-filesToRdfGraph/0.0.0"
+          }
+        ],
+        "http://linkedpipes.com/ontology/x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
+            "@value": "-372"
+          }
+        ],
+        "http://linkedpipes.com/ontology/y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
+            "@value": "1839"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "Files to RDF single graph"
+          }
+        ]
+      },
+      {
+        "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-00051682090585905-00041682090585905-00041681989406323-00031681989406323-00031681989155073-00021681989155073-00021681480283590-00011681480283590-0001569d-8c91",
+        "@type": [
+          "http://linkedpipes.com/ontology/Connection"
+        ],
+        "http://linkedpipes.com/ontology/sourceBinding": [
+          {
+            "@value": "OutputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/sourceComponent": [
+          {
+            "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-00051682090585905-00041682090585905-00041681989406323-00031681989406323-00031681989155073-00021681989155073-00021681480283590-00011681480283590-000114b2-90c9"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetBinding": [
+          {
+            "@value": "InputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetComponent": [
+          {
+            "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-00051682090585905-00041682090585905-00041681989406323-00031681989406323-00031681989155073-00021681989155073-00021681480283590-00011681480283590-00012697-8a34"
+          }
+        ]
+      },
+      {
+        "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-00051682090585905-00041682090585905-00041681989406323-00031681989406323-00031681989155073-00021681989155073-00021681480283590-00011681480283590-0001aa50-a166",
+        "@type": [
+          "http://linkedpipes.com/ontology/Connection"
+        ],
+        "http://linkedpipes.com/ontology/sourceBinding": [
+          {
+            "@value": "OutputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/sourceComponent": [
+          {
+            "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-00051682090585905-00041682090585905-00041681989406323-00031681989406323-00031681989155073-00021681989155073-00021681480283590-00011681480283590-00013ea1-9724"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetBinding": [
+          {
+            "@value": "InputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetComponent": [
+          {
+            "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-00051682090585905-00041682090585905-00041681989406323-00031681989406323-00031681989155073-00021681989155073-00021681480283590-00011681480283590-00012697-8a34"
+          }
+        ]
+      },
+      {
+        "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-00051682090585905-00041682090585905-00041681989406323-00031681989406323-00031681989155073-00021681989155073-00021681480283590-00011681480283590-0001cb6a-8730",
+        "@type": [
+          "http://linkedpipes.com/ontology/Connection"
+        ],
+        "http://linkedpipes.com/ontology/sourceBinding": [
+          {
+            "@value": "OutputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/sourceComponent": [
+          {
+            "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-00051682090585905-00041682090585905-00041681989406323-00031681989406323-00031681989155073-00021681989155073-00021681480283590-00011681480283590-00012656-bd0d"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetBinding": [
+          {
+            "@value": "InputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetComponent": [
+          {
+            "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-00051682090585905-00041682090585905-00041681989406323-00031681989406323-00031681989155073-00021681989155073-00021681480283590-00011681480283590-00012697-8a34"
+          }
+        ]
+      },
+      {
+        "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-00051682090585905-00041682090585905-00041681989406323-00031681989406323-00031681989155073-00021681989155073-00021681480283590-00011681480283590-0001f31e-a77a",
+        "@type": [
+          "http://linkedpipes.com/ontology/Component"
+        ],
+        "http://linkedpipes.com/ontology/configurationGraph": [
+          {
+            "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-00051682090585905-00041682090585905-00041681989406323-00031681989406323-00031681989155073-00021681989155073-00021681480283590-00011681480283590-0001f31e-a77a/configuration"
+          }
+        ],
+        "http://linkedpipes.com/ontology/template": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/e-sparqlEndpointList/0.0.0"
+          }
+        ],
+        "http://linkedpipes.com/ontology/x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
+            "@value": "549"
+          }
+        ],
+        "http://linkedpipes.com/ontology/y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
+            "@value": "1774"
+          }
+        ],
+        "http://purl.org/dc/terms/description": [
+          {
+            "@value": "Execute query tasks to search for\nbusiness entities by their identifier\n(STIRData)"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "SPARQL endpoint list to single graph"
+          }
+        ]
+      },
+      {
+        "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-00051682090585905-00041682090585905-00041681989406323-00031681989406323-00031681989155073-00021681989155073-00023610-a59f",
+        "@type": [
+          "http://linkedpipes.com/ontology/Connection"
+        ],
+        "http://linkedpipes.com/ontology/sourceBinding": [
+          {
+            "@value": "OutputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/sourceComponent": [
+          {
+            "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-00051682090585905-00041682090585905-00041681989406323-00031681989406323-00031681989155073-00021681989155073-0002782c-8068"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetBinding": [
+          {
+            "@value": "Tasks"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetComponent": [
+          {
+            "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-00051682090585905-00041682090585905-00041681989406323-00031681989406323-00031681989155073-00021681989155073-00021681480283590-00011681480283590-0001f31e-a77a"
+          }
+        ]
+      },
+      {
+        "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-00051682090585905-00041682090585905-00041681989406323-00031681989406323-00031681989155073-00021681989155073-0002782c-8068",
+        "@type": [
+          "http://linkedpipes.com/ontology/Component"
+        ],
+        "http://linkedpipes.com/ontology/configurationGraph": [
+          {
+            "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-00051682090585905-00041682090585905-00041681989406323-00031681989406323-00031681989155073-00021681989155073-0002782c-8068/configuration"
+          }
+        ],
+        "http://linkedpipes.com/ontology/template": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/t-sparqlConstruct/0.0.0"
+          }
+        ],
+        "http://linkedpipes.com/ontology/x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
+            "@value": "167"
+          }
+        ],
+        "http://linkedpipes.com/ontology/y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
+            "@value": "1779"
+          }
+        ],
+        "http://purl.org/dc/terms/description": [
+          {
+            "@value": "Prepare query tasks to search for\nbusiness entities by their identifier\n(STIRData)"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "SPARQL construct"
+          }
+        ]
+      },
+      {
+        "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-00051682090585905-00041682090585905-00041681989406323-00031681989406323-00031681989155073-00021681989155073-00028bb2-b1df",
+        "@type": [
+          "http://linkedpipes.com/ontology/Component"
+        ],
+        "http://linkedpipes.com/ontology/configurationGraph": [
+          {
+            "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-00051682090585905-00041682090585905-00041681989406323-00031681989406323-00031681989155073-00021681989155073-00028bb2-b1df/configuration"
+          }
+        ],
+        "http://linkedpipes.com/ontology/disabled": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "true"
+          }
+        ],
+        "http://linkedpipes.com/ontology/template": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/e-textHolder/0.0.0"
+          }
+        ],
+        "http://linkedpipes.com/ontology/x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
+            "@value": "-630"
+          }
+        ],
+        "http://linkedpipes.com/ontology/y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
+            "@value": "1880"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "Text holder - only CZ"
+          }
+        ]
+      },
+      {
+        "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00022314-b62a",
+        "@type": [
+          "http://linkedpipes.com/ontology/Component"
+        ],
+        "http://linkedpipes.com/ontology/configurationGraph": [
+          {
+            "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00022314-b62a/configuration"
+          }
+        ],
+        "http://linkedpipes.com/ontology/template": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/t-filesToRdfGraph/0.0.0"
+          }
+        ],
+        "http://linkedpipes.com/ontology/x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
+            "@value": "-400"
+          }
+        ],
+        "http://linkedpipes.com/ontology/y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
+            "@value": "1441"
+          }
+        ],
+        "http://purl.org/dc/terms/description": [
+          {
+            "@value": "Transform identifiers\nto graph"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "Files to RDF single graph"
+          }
+        ]
+      },
+      {
+        "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00028bfb-b78c",
+        "@type": [
+          "http://linkedpipes.com/ontology/Connection"
+        ],
+        "http://linkedpipes.com/ontology/sourceBinding": [
+          {
+            "@value": "FilesOutput"
+          }
+        ],
+        "http://linkedpipes.com/ontology/sourceComponent": [
+          {
+            "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-0002d0c6-a50b"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetBinding": [
+          {
+            "@value": "InputFiles"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetComponent": [
+          {
+            "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00022314-b62a"
+          }
+        ]
+      },
+      {
+        "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00029e08-9180",
+        "@type": [
+          "http://linkedpipes.com/ontology/Connection"
+        ],
+        "http://linkedpipes.com/ontology/sourceBinding": [
+          {
+            "@value": "OutputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/sourceComponent": [
+          {
+            "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-00051682090585905-00041682090585905-00041681989406323-00031681989406323-00031681989155073-00021681989155073-00021681480283590-00011681480283590-00012697-8a34"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetBinding": [
+          {
+            "@value": "InputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetComponent": [
+          {
+            "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-00051682090585905-00041682090585905-00041681989406323-00031681989406323-00031681989155073-00021681989155073-0002782c-8068"
+          }
+        ]
+      },
+      {
+        "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-0002d0c6-a50b",
+        "@type": [
+          "http://linkedpipes.com/ontology/Component"
+        ],
+        "http://linkedpipes.com/ontology/configurationGraph": [
+          {
+            "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-0002d0c6-a50b/configuration"
+          }
+        ],
+        "http://linkedpipes.com/ontology/template": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/e-textHolder/0.0.0"
+          }
+        ],
+        "http://linkedpipes.com/ontology/x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
+            "@value": "-785"
+          }
+        ],
+        "http://linkedpipes.com/ontology/y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
+            "@value": "1431"
+          }
+        ],
+        "http://purl.org/dc/terms/description": [
+          {
+            "@value": "Set identifiers"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "Text holder"
+          }
+        ]
+      },
+      {
+        "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-0002ee29-804d",
+        "@type": [
+          "http://linkedpipes.com/ontology/Connection"
+        ],
+        "http://linkedpipes.com/ontology/sourceBinding": [
+          {
+            "@value": "OutputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/sourceComponent": [
+          {
+            "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00022314-b62a"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetBinding": [
+          {
+            "@value": "InputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetComponent": [
+          {
+            "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-00051682090585905-00041682090585905-00041681989406323-00031681989406323-00031681989155073-00021681989155073-00021681480283590-00011681480283590-00012697-8a34"
+          }
+        ]
+      },
+      {
+        "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-0002f1ce-8b48",
+        "@type": [
+          "http://linkedpipes.com/ontology/Connection"
+        ],
+        "http://linkedpipes.com/ontology/sourceBinding": [
+          {
+            "@value": "OutputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/sourceComponent": [
+          {
+            "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-00051682090585905-00041682090585905-00041681989406323-00031681989406323-00031681989155073-00021681989155073-00021681480283590-00011681480283590-0001f31e-a77a"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetBinding": [
+          {
+            "@value": "InputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetComponent": [
+          {
+            "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-0005021a-b241"
+          }
+        ]
+      }
+    ],
+    "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-0002"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-0002/component/2de7-a7ba/configuration",
+        "@type": [
+          "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#Configuration"
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#commitSize": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "0"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#commitSizeControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#encodeRdf": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#encodeRdfControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#passwordControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#taskPerGroupLimit": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "1"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#taskPerGroupLimitControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#threads": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "8"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#threadsControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#timeLimit": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "600"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#timeLimitControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#useAuthentication": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#useAuthenticationControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#useTolerantRepository": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "true"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#useTolerantRepositoryControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#userNameControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ]
+      }
+    ],
+    "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-0002/component/2de7-a7ba/configuration"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-0002/component/5c2a-9a9e/configuration",
+        "@type": [
+          "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#Configuration"
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#query": [
+          {
+            "@value": "PREFIX esl: <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#>\nPREFIX : <urn:stirdata:>\n\nCONSTRUCT \n{ \n  ?task a esl:Task ;\n       esl:query ?query ;\n       esl:group \"https://dbpedia.org/sparql\" ;\n       esl:endpoint \"https://dbpedia.org/sparql\" .\n} WHERE {\n  ?companyWD :identifier ?identifier .\n  \n  BIND(UUID() AS ?task)\n  \nBIND(CONCAT(\"\"\"PREFIX dbo: <http://dbpedia.org/ontology/>\nPREFIX owl: <http://www.w3.org/2002/07/owl#>\nPREFIX stirdbp: <urn:stirdata:dbpedia:>\n\nCONSTRUCT {\n  <\"\"\", STR(?companyWD), \"\"\"> stirdbp:abstract ?abstract .\n} WHERE {\n  ?company owl:sameAs <\"\"\", STR(?companyWD), \"\"\"> ;\n           dbo:abstract ?abstract .\n}\"\"\") as ?query)\n}"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#queryControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ]
+      }
+    ],
+    "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-0002/component/5c2a-9a9e/configuration"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-0002/component/5d31-98bb/configuration",
+        "@type": [
+          "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#Configuration"
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#query": [
+          {
+            "@value": "PREFIX esl: <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#>\nPREFIX : <urn:stirdata:>\n\nCONSTRUCT \n{ \n  ?task a esl:Task ;\n       esl:query ?query ;\n       esl:group \"https://query.wikidata.org/sparql\" ;\n       esl:endpoint \"https://query.wikidata.org/sparql\" .\n} WHERE {\n  [] :identifier ?identifier .\n  \n  BIND(UUID() AS ?task)\n  \nBIND(CONCAT(\"\"\"PREFIX wdt: <http://www.wikidata.org/prop/direct/>\nPREFIX wd: <http://www.wikidata.org/entity/>\nPREFIX p: <http://www.wikidata.org/prop/>\nPREFIX psv: <http://www.wikidata.org/prop/statement/value/>\nPREFIX ps: <http://www.wikidata.org/prop/statement/>\nPREFIX wikibase: <http://wikiba.se/ontology#>\nPREFIX stirwd: <urn:stirdata:wikidata:>\nPREFIX : <urn:stirdata:>\n\nCONSTRUCT {\n  ?company stirwd:numberOfEmployees ?numberOfEmployees ;\n    stirwd:netProfit [\n      stirwd:amount ?netProfitAmount ;\n      stirwd:unit ?netProfitUnit\n    ] ;\n    :identifier \\\"\"\"\", STR(?identifier), \"\"\"\\\" .\n} WHERE {\n  VALUES ?identifyingWDProperty {wd:Q21745557 wd:Q26235166 wd:Q106035765}\n  ?company ?directIdentifier \\\"\"\"\", STR(?identifier), \"\"\"\\\" ;\n           wdt:P1128 ?numberOfEmployees ;\n           wdt:P2295 ?netProfitAmount ;\n           p:P2295 ?netProfitStatement .\n  \n  ?netProfitStatement ps:P2295 ?netProfitAmount ;\n                      psv:P2295/wikibase:quantityUnit/wdt:P498 ?netProfitUnit .\n  \n  \n  ?identifier wikibase:directClaim ?directIdentifier ;\n              wdt:P31 ?identifyingWDProperty .\n}\"\"\") as ?query)\n}"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#queryControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ]
+      }
+    ],
+    "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-0002/component/5d31-98bb/configuration"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-0002/component/e455-b2e2/configuration",
+        "@type": [
+          "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#Configuration"
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#commitSize": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "0"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#commitSizeControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#encodeRdf": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#encodeRdfControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#passwordControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#taskPerGroupLimit": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "1"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#taskPerGroupLimitControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#threads": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "8"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#threadsControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#timeLimit": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "600"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#timeLimitControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#useAuthentication": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#useAuthenticationControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#useTolerantRepository": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "true"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#useTolerantRepositoryControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#userNameControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ]
+      }
+    ],
+    "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-0002/component/e455-b2e2/configuration"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-0002/component/f3d2-9679/configuration",
+        "@type": [
+          "http://plugins.linkedpipes.com/ontology/t-mustache#Configuration"
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-mustache#addFirstFlag": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "true"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-mustache#addFirstFlagControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-mustache#class": [
+          {
+            "@value": "urn:stirdata:OutputList"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-mustache#classControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-mustache#escapeForJson": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-mustache#escapeForJsonControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-mustache#template": [
+          {
+            "@value": "[\n{{#urn:stirdata:item}}\n  {{^http://plugins.linkedpipes.com/ontology/t-mustache#first}}\n  ,\n  {{/http://plugins.linkedpipes.com/ontology/t-mustache#first}}\n  {\n    \"identifier\": \"{{urn:stirdata:identifier}}\",\n    \"legalName\": [\n      {{^http://plugins.linkedpipes.com/ontology/t-mustache#first}}\n       ,\n      {{/http://plugins.linkedpipes.com/ontology/t-mustache#first}}\n      {{#urn:stirdata:legalName}}\n      {\n        \"value\": \"{{urn:stirdata:value}}\",\n        \"lang\": \"{{urn:stirdata:lang}}\"\n      }\n      {{/urn:stirdata:legalName}}\n    ],\n    \"dataSet\": \"{{urn:stirdata:dataset}}\",\n    \"netProfit\": {\n      {{#urn:stirdata:netProfit}}\n      \"amount\": \"{{urn:stirdata:amount}}\",\n      \"unit\": \"{{urn:stirdata:unit}}\"\n      {{/urn:stirdata:netProfit}}\n    },\n    \"abstract\": [\n      {{#urn:stirdata:abstract}}\n      {{^http://plugins.linkedpipes.com/ontology/t-mustache#first}}\n       ,\n      {{/http://plugins.linkedpipes.com/ontology/t-mustache#first}}\n      {\n        \"value\": \"{{urn:stirdata:value}}\",\n        \"lang\": \"{{urn:stirdata:lang}}\"\n      }\n      {{/urn:stirdata:abstract}}\n    ]\n  }\n{{/urn:stirdata:item}}\n]"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-mustache#templateControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ]
+      }
+    ],
+    "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-0002/component/f3d2-9679/configuration"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-0005021a-b241/configuration",
+        "@type": [
+          "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#Configuration"
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#query": [
+          {
+            "@value": "PREFIX : <urn:stirdata:>\nPREFIX stirwd: <urn:stirdata:wikidata:>\nPREFIX stirdbp: <urn:stirdata:dbpedia:>\n\nPREFIX legal: <http://www.w3.org/ns/legal#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\n\nCONSTRUCT {\n  :outputList0 a :OutputList ;\n    <http://plugins.linkedpipes.com/ontology/t-mustache#fileName> ?fileName ;\n    :item ?legalEntity .\n    \n  ?legalEntity a legal:LegalEntity ;\n    :identifier ?identifier ;\n    :legalName ?legalNameIRI ;\n    :dataset ?datasetStr ;\n    :netProfit ?netProfit ;\n    :abstract ?abstractIRI .\n  \n  ?netProfit :amount ?netProfitAmount ;\n    :unit ?netProfitUnit .\n  \n  ?legalNameIRI :value ?legalName ;\n      :lang ?legalNameLang .\n  \n  ?abstractIRI :value ?abstract ;\n    :lang ?abstractLang .\n} WHERE {\n \n  ?legalEntity a legal:LegalEntity ;\n    :identifier ?identifier ;\n    :legalName ?legalName ;\n    :dataset ?dataset .\n  \n  ?legalEntityWikidata stirwd:numberOfEmployees ?numberOfEmployees ;\n    stirwd:netProfit ?netProfit ;\n    :identifier  ?identifier ;\n    stirdbp:abstract ?abstract .\n  \n  ?netProfit stirwd:amount ?netProfitAmount ;\n      stirwd:unit ?netProfitUnit .\n  \n  BIND(STR(?dataset) AS ?datasetStr)\n  BIND(LANG(?abstract) AS ?abstractLang)\n  BIND(LANG(?legalName) AS ?legalNameLang)\n  BIND(IRI(CONCAT(STR(?legalEntity), \"/legalname/\", ?legalNameLang)) AS ?legalNameIRI)\n  BIND(IRI(CONCAT(STR(?legalEntity), \"/abstract/\", ?abstractLang)) AS ?abstractIRI)\n  BIND(\"companies.json\" AS ?fileName)\n\n}"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#queryControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ]
+      }
+    ],
+    "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-0005021a-b241/configuration"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-00051682090585905-00041682090585905-00041681989406323-00031681989406323-00031681989155073-00021681989155073-00021681480283590-00011681480283590-000114b2-90c9/1",
+        "@type": [
+          "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#Configuration"
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#defaultGraphControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#encodeRdf": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#encodeRdfControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#endpoint": [
+          {
+            "@value": "https://data.europa.eu/sparql"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#endpointControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#handleInvalidData": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#handleInvalidDataControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#headerAcceptControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#passwordControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#query": [
+          {
+            "@value": "PREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n\nCONSTRUCT {\n?endpoint <urn:stirdata:endpoint> ?endpointString ;\n    <urn:stirdata:dataset> ?dataset .\n}\nWHERE {\n  ?dataset a dcat:Dataset ;\n    dcterms:title ?title ;\n    dcterms:conformsTo <https://stirdata.github.io/data-specification/> ;\n    dcat:distribution/dcat:accessService ?service .\n  ?service a dcat:DataService ;\n    dcterms:conformsTo <https://www.w3.org/TR/sparql11-protocol/> ;\n    dcat:endpointURL ?endpoint .\n  FILTER(langMatches(LANG(?title), \"en\"))\n      BIND(STR(?endpoint) AS ?endpointString)\n}\n"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#queryControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useAuthentication": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useAuthenticationControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useTolerantRepository": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useTolerantRepositoryControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#userNameControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ]
+      }
+    ],
+    "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-00051682090585905-00041682090585905-00041681989406323-00031681989406323-00031681989155073-00021681989155073-00021681480283590-00011681480283590-000114b2-90c9/configuration"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-00051682090585905-00041682090585905-00041681989406323-00031681989406323-00031681989155073-00021681989155073-00021681480283590-00011681480283590-00012656-bd0d/1",
+        "@type": [
+          "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#Configuration"
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#defaultGraphControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#encodeRdf": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#encodeRdfControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#endpoint": [
+          {
+            "@value": "https://stirdata.opendata.cz/sparql"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#endpointControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#handleInvalidData": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#handleInvalidDataControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#headerAcceptControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#passwordControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#query": [
+          {
+            "@value": "PREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n\nCONSTRUCT {\n?endpoint <urn:stirdata:endpoint> ?endpointString ;\n    <urn:stirdata:dataset> ?dataset .\n}\nWHERE {\n  ?dataset a dcat:Dataset ;\n    dcterms:title ?title ;\n    dcterms:conformsTo <https://stirdata.github.io/data-specification/> ;\n    dcat:distribution/dcat:accessService ?service .\n  ?service a dcat:DataService ;\n    dcterms:conformsTo <https://www.w3.org/TR/sparql11-protocol/> ;\n    dcat:endpointURL ?endpoint .\n  FILTER(langMatches(LANG(?title), \"en\"))\n      BIND(STR(?endpoint) AS ?endpointString)\n}\n"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#queryControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useAuthentication": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useAuthenticationControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useTolerantRepository": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useTolerantRepositoryControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#userNameControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ]
+      }
+    ],
+    "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-00051682090585905-00041682090585905-00041681989406323-00031681989406323-00031681989155073-00021681989155073-00021681480283590-00011681480283590-00012656-bd0d/configuration"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-00051682090585905-00041682090585905-00041681989406323-00031681989406323-00031681989155073-00021681989155073-00021681480283590-00011681480283590-00012697-8a34/1",
+        "@type": [
+          "http://plugins.linkedpipes.com/ontology/t-singleGraphUnion#Configuration"
+        ]
+      }
+    ],
+    "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-00051682090585905-00041682090585905-00041681989406323-00031681989406323-00031681989155073-00021681989155073-00021681480283590-00011681480283590-00012697-8a34/configuration"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-00051682090585905-00041682090585905-00041681989406323-00031681989406323-00031681989155073-00021681989155073-00021681480283590-00011681480283590-00013ea1-9724/1",
+        "@type": [
+          "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#Configuration"
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#commitSize": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "50000"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#commitSizeControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#mimeType": [
+          {
+            "@value": ""
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#mimeTypeControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#softFail": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#softFailControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ]
+      }
+    ],
+    "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-00051682090585905-00041682090585905-00041681989406323-00031681989406323-00031681989155073-00021681989155073-00021681480283590-00011681480283590-00013ea1-9724/configuration"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-00051682090585905-00041682090585905-00041681989406323-00031681989406323-00031681989155073-00021681989155073-00021681480283590-00011681480283590-0001f31e-a77a/configuration",
+        "@type": [
+          "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#Configuration"
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#commitSize": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "0"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#commitSizeControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#encodeRdf": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#encodeRdfControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#passwordControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#taskPerGroupLimit": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "1"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#taskPerGroupLimitControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#threads": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "8"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#threadsControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#timeLimit": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "600"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#timeLimitControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#useAuthentication": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#useAuthenticationControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#useTolerantRepository": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "true"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#useTolerantRepositoryControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#userNameControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ]
+      }
+    ],
+    "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-00051682090585905-00041682090585905-00041681989406323-00031681989406323-00031681989155073-00021681989155073-00021681480283590-00011681480283590-0001f31e-a77a/configuration"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-00051682090585905-00041682090585905-00041681989406323-00031681989406323-00031681989155073-00021681989155073-0002782c-8068/configuration",
+        "@type": [
+          "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#Configuration"
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#query": [
+          {
+            "@value": "PREFIX esl: <http://plugins.linkedpipes.com/ontology/e-sparqlEndpointList#>\nPREFIX : <urn:stirdata:>\n\nCONSTRUCT \n{ \n  ?task a esl:Task ;\n       esl:query ?query ;\n       esl:group ?uritext ;\n       esl:endpoint ?uritext .\n} \nWHERE \n{ \n  ?s :endpoint ?uritext ;\n    :dataset ?dataset .\n\n  [] :identifier ?identifier .\n  \n  BIND(UUID() AS ?task)\nBIND(IRI(?uritext) as ?uri)\nBIND(CONCAT(\"\"\"PREFIX : <urn:stirdata:>\nPREFIX legal: <http://www.w3.org/ns/legal#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nCONSTRUCT {\n  ?resource a legal:LegalEntity ;\n    :identifier \\\"\"\"\", STR(?identifier), \"\"\"\\\" ;\n    :legalName ?legalName ;\n    :dataset <\"\"\", STR(?dataset) ,\"\"\"> .\n} WHERE {\n  ?resource a legal:LegalEntity ;\n    legal:legalIdentifier/skos:notation \\\"\"\"\", STR(?identifier), \"\"\"\\\" ;\n    legal:legalName ?legalName .\n}\"\"\") as ?query)\n}"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#queryControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ]
+      }
+    ],
+    "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-00051682090585905-00041682090585905-00041681989406323-00031681989406323-00031681989155073-00021681989155073-0002782c-8068/configuration"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-00051682090585905-00041682090585905-00041681989406323-00031681989406323-00031681989155073-00021681989155073-00028bb2-b1df/1",
+        "@type": [
+          "http://plugins.linkedpipes.com/ontology/e-textHolder#Configuration"
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-textHolder#content": [
+          {
+            "@value": "<https://obchodní-rejstřík.stirdata.opendata.cz/sparql> <urn:stirdata:endpoint> \"https://obchodní-rejstřík.stirdata.opendata.cz/sparql\" ;\n<urn:stirdata:dataset> <https://stirdata.opendata.cz/resource/dataset/czechia/obchodní-rejstřík/ebg> ."
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-textHolder#contentControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-textHolder#fileName": [
+          {
+            "@value": "file.ttl"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-textHolder#fileNameControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ]
+      }
+    ],
+    "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00021682095059683-00051682095059683-00051682090585905-00041682090585905-00041681989406323-00031681989406323-00031681989155073-00021681989155073-00028bb2-b1df/configuration"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00022314-b62a/configuration",
+        "@type": [
+          "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#Configuration"
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#commitSize": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "50000"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#commitSizeControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#mimeType": [
+          {
+            "@value": ""
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#mimeTypeControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#softFail": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#softFailControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ]
+      }
+    ],
+    "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-00022314-b62a/configuration"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-0002d0c6-a50b/configuration",
+        "@type": [
+          "http://plugins.linkedpipes.com/ontology/e-textHolder#Configuration"
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-textHolder#content": [
+          {
+            "@value": "@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n[] <urn:stirdata:identifier> \"26185610\", \"10421629\" ."
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-textHolder#contentControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-textHolder#fileName": [
+          {
+            "@value": "identifiers.ttl"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-textHolder#fileNameControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ]
+      }
+    ],
+    "@id": "https://stirdata.opendata.cz/etl/resources/pipelines/1686233582005-00021686233582005-0002d0c6-a50b/configuration"
+  }
+]
