@@ -14,7 +14,8 @@ For custom deployments, see the [full deployment documentation](https://github.c
 The [documentation of the individual LP-ETL components](https://etl.linkedpipes.com/components/) is also available directly from the component's configuration dialog.
 
 ## Number of business entities and population by NUTS level 3
-[**LP-ETL Pipeline**](<pipelines/Number of business entities (STIRData) and population (Wikidata) by NUTS level 3.jsonld>)
+[**LP-ETL Pipeline**](<pipelines/Number of business entities (STIRData) and population (Wikidata) by NUTS level 3.jsonld>), [**Link for import from URL**](https://raw.githubusercontent.com/STIRData/data-consumption/main/pipelines/Number%20of%20business%20entities%20%28STIRData%29%20and%20population%20%28Wikidata%29%20by%20NUTS%20level%203.jsonld)
+
 This pipeline produces a dataset with the total population and number of business entities registered in administrative regions (NUTS level 3).
 
 **Inputs:**
@@ -57,7 +58,7 @@ This pipeline serves analysts who compare the population and number of business 
 16. *Create an output CSV file:* Executes a SPARQL SELECT query that produces the CSV output with the statistical observations. Each observation forms a row in the output CSV file.
 
 ## Number of business entities and GDP by NUTS level 3
-[**LP-ETL Pipeline**](<pipelines/Number of business entities (STIRdata) and GDP (Eurostat) by NUTS level 3.jsonld>)
+[**LP-ETL Pipeline**](<pipelines/Number of business entities (STIRdata) and GDP (Eurostat) by NUTS level 3.jsonld>), [**Link for import from URL**](https://raw.githubusercontent.com/STIRData/data-consumption/main/pipelines/Number%20of%20business%20entities%20%28STIRdata%29%20and%20GDP%20%28Eurostat%29%20by%20NUTS%20level%203.jsonld)
 
 This pipeline produces a dataset with the total population and the gross domestic product (GDP) in millions of EUR in administrative regions (NUTS level 3).
 
@@ -103,7 +104,7 @@ This pipeline serves analysts who compare the population and GDP in different NU
 19. _Create an output CSV file:_ Executes a SPARQL SELECT query that produces the CSV output with the statistical observations. Each observation forms a row in the output CSV file.
 
 ## Number of business entities by NACE activity and NUTS level 3
-[**LP-ETL Pipeline**](<pipelines/Number of business entities by NACE activity and NUTS level 3 (STIRData).jsonld>)
+[**LP-ETL Pipeline**](<pipelines/Number of business entities by NACE activity and NUTS level 3 (STIRData).jsonld>), [**Link for import from URL**](https://raw.githubusercontent.com/STIRData/data-consumption/main/pipelines/Number%20of%20business%20entities%20by%20NACE%20activity%20and%20NUTS%20level%203%20%28STIRData%29.jsonld)
 
 This pipeline produces a dataset with the number of business entities with a given NACE activity registered in a given administrative region (NUTS level 3).
 
@@ -148,7 +149,7 @@ The pipeline expects that if a business entity is classified in a given NACE act
 15. _Create an output CSV file:_ Executes a SPARQL SELECT query that produces the CSV output with the statistical observations. Each observation forms a row in the output CSV file.
 
 ## Number of business entities registered in given months by activity
-[**LP-ETL Pipeline**](<pipelines/Number of business entities registered in given months by activity.jsonld>)
+[**LP-ETL Pipeline**](<pipelines/Number of business entities registered in given months by activity.jsonld>), [**Link for import from URL**](https://raw.githubusercontent.com/STIRData/data-consumption/main/pipelines/Number%20of%20business%20entities%20registered%20in%20given%20months%20by%20activity.jsonld)
 
 This pipeline produces a dataset with the number of newly registered business entities in given months with a given NACE activity.
 
@@ -187,7 +188,7 @@ This pipeline serves analysts who compare the number of business entities newly 
 13. _Create an output CSV file:_ Executes a SPARQL SELECT query that produces the CSV output with the statistical observations. Each observation forms a row in the output CSV file.
 
 ## Searching for business entities across STIRdata data sources, Wikidata and DBpedia
-[**LP-ETL Pipeline**](<pipelines/Searching for business entities across STIRdata data sources, Wikidata and DBpedia.jsonld>)
+[**LP-ETL Pipeline**](<pipelines/Searching for business entities across STIRdata data sources, Wikidata and DBpedia.jsonld>), [**Link for import from URL**](https://raw.githubusercontent.com/STIRData/data-consumption/main/pipelines/Searching%20for%20business%20entities%20across%20STIRdata%20data%20sources%2C%20Wikidata%20and%20DBpedia.jsonld)
 
 This pipeline produces a dataset with the list of business entities with the given identifiers. It provides the latest number of employees and net profit for each business entity according to Wikidata and a description of the entity in different languages according to DBpedia. The pipeline first searches for the entities in all known data sources compliant with [STIRData specification]. It then searches for the entities using the identifiers in Wikidata, followed by the look up in DBpedia.
 
@@ -217,7 +218,7 @@ This pipeline demonstrates how concrete business entities can be looked up using
 11. _Construct final JSON output file:_ Shapes the RDF representation to the final JSON representation.
 
 ## Profiling pipeline
-[**LP-ETL Pipeline**](https://github.com/STIRData/data-harmonisation/blob/main/validation.jsonld)
+[**LP-ETL Pipeline**](<pipelines/Profiling pipeline.jsonld>), [**Link for import from URL**](https://raw.githubusercontent.com/STIRData/data-consumption/main/pipelines/Profiling%20pipeline.jsonld)
 
 **Inputs:**
 1. A data catalog with at least one dataset registered with a distribution in the form of a SPARQL endpoint service conforming to the [STIRData specification].
