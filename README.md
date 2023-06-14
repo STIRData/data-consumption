@@ -2,13 +2,15 @@
 This repository hosts a set of data transformation and consumption [LinkedPipes ETL] pipelines.
 The pipelines serve as a demonstration of how the harmonized data published according to the [STIRData specification] and registered in a data catalog can be used to solve specific data-oriented use cases as an alternative to accessing the data through the user-facing [STIRData portal] application.
 
-A [LinkedPipes ETL] instance can be deplyed using Docker.
+A [LinkedPipes ETL] instance can for running the pipelines can be deployed using Docker.
 The [Docker] based deployment requires [Docker Compose].
 Then, it can be deployed from the `main` branch like this:
 ```
 curl https://raw.githubusercontent.com/linkedpipes/etl/main/docker-compose.yml | docker-compose -f - up
 ```
 When deployed, LP-ETL runs on http://localhost:8080 and is ready to import pipelines.
+
+Alternatively, our [demo instance](https://demo.etl.linkedpipes.com) can be used.
 
 For custom deployments, see the [full deployment documentation](https://github.com/linkedpipes/etl/tree/main#installation-and-startup). Once deployed, see the [user documentation](https://etl.linkedpipes.com/documentation/) and [tutorials](https://etl.linkedpipes.com/tutorials/).
 The [documentation of the individual LP-ETL components](https://etl.linkedpipes.com/components/) is also available directly from the component's configuration dialog.
